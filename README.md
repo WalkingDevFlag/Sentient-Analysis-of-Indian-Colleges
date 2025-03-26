@@ -9,19 +9,19 @@ This project scrapes comments potentially related to specific **Indian colleges*
 ```bash
 Sentient-Analysis-of-Indian-Colleges/
 ├── src/
-│	 ├── reddit_scraper.py                  # Reddit scraper module
+│	├── reddit_scraper.py    # Reddit scraper module
 │   ├── cleaner.py        	 # (Code provided previously)
 │   ├── analyzer.py       	 # (Code provided previously)
 │   ├── summarizer.py     	 # (Code provided previously)
 │   ├── plotter.py        	 # (Code provided previously)
-│	 ├── main.py               # <<< Consolidated Main Script >>>
-│	 └── scrape_nirf.py        # (Code provided previously)
-├── output/                   # Generated results & visualizations
+│	 ├── main.py             # <<< Consolidated Main Script >>>
+│	 └── scrape_nirf.py      # (Code provided previously)
+├── output/                  # Generated results & visualizations
 │   ├── analysis_results/
 │   │   └── .gitkeep
 │   └── visualizations/
 │       └── .gitkeep
-├── data/                     # Intermediate data storage
+├── data/                    # Intermediate data storage
 │   ├── reference/
 │   │   ├── nirf_eng_top100_names_2024.json
 │   │   └── college_subreddit_map_auto_generated.json
