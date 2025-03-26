@@ -7,10 +7,9 @@ This project scrapes comments potentially related to specific **Indian colleges*
 ## Project Structure
 
 ```bash
-indian-college-reddit/
+Sentient-Analysis-of-Indian-Colleges/
 ├── src/
-│   ├── scrapers/             # Reddit scraper module
-│	│   └── reddit_scraper.py     # (Should be the version loading the map file)
+│	 ├── reddit_scraper.py                  # Reddit scraper module
 │   ├── cleaner.py        	 # (Code provided previously)
 │   ├── analyzer.py       	 # (Code provided previously)
 │   ├── summarizer.py     	 # (Code provided previously)
