@@ -1,0 +1,10 @@
+praw
+nltk
+tqdm
+python-dotenv
+requests
+beautifulsoup4
+pandas
+matplotlib
+seaborn
+wordcloud

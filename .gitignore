@@ -1,0 +1,7 @@
+.env
+Context.txt
+seanerice-college-sentiment.txt
+/data
+/output
+/src/__pycache__
+/src/.vs

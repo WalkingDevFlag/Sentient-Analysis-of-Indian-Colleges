@@ -1,0 +1,6 @@
+name: ayush
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+prefix: C:\Users\Siddharth\anaconda3\envs\ayush
