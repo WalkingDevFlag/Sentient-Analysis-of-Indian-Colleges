@@ -14,8 +14,8 @@ Sentient-Analysis-of-Indian-Colleges/
 │   ├── analyzer.py       	 # (Code provided previously)
 │   ├── summarizer.py     	 # (Code provided previously)
 │   ├── plotter.py        	 # (Code provided previously)
-│	 ├── main.py             # <<< Consolidated Main Script >>>
-│	 └── scrape_nirf.py      # (Code provided previously)
+│	├── main.py             # <<< Consolidated Main Script >>>
+│	└── scrape_nirf.py      # (Code provided previously)
 ├── output/                  # Generated results & visualizations
 │   ├── analysis_results/
 │   │   └── .gitkeep
