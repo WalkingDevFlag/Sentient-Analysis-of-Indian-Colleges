@@ -55,7 +55,7 @@ Follow these steps to set up the project environment.
 1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/WalkingDevFlag/Sentient-Analysis-of-Indian-Colleges
-    cd indian-college-sentiment
+    cd Sentient-Analysis-of-Indian-Colleges
     ```
 
 1.  **Create a Virtual Environment (Recommended):**
