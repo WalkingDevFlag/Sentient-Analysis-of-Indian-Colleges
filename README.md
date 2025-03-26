@@ -54,12 +54,11 @@ Follow these steps to set up the project environment.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/WalkingDevFlag/Sentient-Analysis-of-Indian-Colleges
     cd indian-college-sentiment
     ```
-    Replace `<your-repository-url>` with the actual URL of your Git repository.
 
-2.  **Create a Virtual Environment (Recommended):**
+1.  **Create a Virtual Environment (Recommended):**
     It's best practice to use a virtual environment to isolate project dependencies.
     ```bash
     # On Windows:
@@ -71,14 +70,14 @@ Follow these steps to set up the project environment.
     source venv/bin/activate
     ```
 
-3.  **Install Dependencies:**
+2.  **Install Dependencies:**
     Install all required Python packages listed in `requirements.txt` using pip.
     ```bash
     pip install -r requirements.txt
     ```
     This command reads the `requirements.txt` file and installs all the specified libraries into your virtual environment.
 
-4.  **Reddit API Credentials (Highly Recommended):**
+3.  **Reddit API Credentials (Highly Recommended):**
     To scrape Reddit data reliably, you need to create a Reddit "script" application and obtain API credentials.
     *   Go to the Reddit Apps page: [https://www.reddit.com/prefs/apps](https://www.reddit.com/prefs/apps) (log in to your Reddit account).
     *   Click on "are you a developer? create an app...".
@@ -101,7 +100,7 @@ Follow these steps to set up the project environment.
         ```
     *   **Important:** Ensure that `.env` is listed in your `.gitignore` file to prevent accidentally committing your credentials to version control.
 
-5.  **Download NLTK Data (if needed):**
+4.  **Download NLTK Data (if needed):**
     The project uses NLTK for text processing and sentiment analysis. The scripts are designed to automatically download the necessary NLTK data packages if they are missing. However, if you encounter issues or want to pre-download them, you can run the following commands in a Python interpreter (with your virtual environment activated):
     ```python
     import nltk
